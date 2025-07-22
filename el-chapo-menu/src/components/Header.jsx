@@ -68,13 +68,13 @@ const Header = () => {
         </div>
 
         {showMenu && (
-          <div className="absolute h-screen bg-blue-100 inset-0 opacity-65 items-start pt-20 z-40">
+          <div className="absolute h-screen bg-blue-100 dark:bg-slate-600 inset-0 opacity-90 items-start pt-20 z-40">
             <div className="flex justify-center w-full z-20 ">
               <ul className=" px-8 text-center font-semibold flex flex-col w-full  ">
                 {categoryMenu.map((items) => (
                   <a
                     href={`#${items.link}`}
-                    className="border py-1 hover:bg-black hover:text-white rounded text-lg shadow-sm"
+                    className="border-b-2  py-1 hover:bg-black hover:text-white rounded text-lg shadow-sm"
                     onClick={handleMenuOptionClick}
                     key={items.Id}
                   >

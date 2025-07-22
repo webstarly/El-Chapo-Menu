@@ -10,7 +10,7 @@ const CategorySection = ({category}) => {
                 category.items.length > 0 ? (
                     category.items.map((item) => (
                         <div className=''>
-                            <Card key={item.Id} className='flex flex-col dark:bg-slate-950 '>
+                            <Card key={item.Id} className='flex flex-col dark:bg-slate-900 dark:border-b-white  hover: shadow-sm '>
                             
                                 <CardContent className="p-4 gap-2">
                                     {
