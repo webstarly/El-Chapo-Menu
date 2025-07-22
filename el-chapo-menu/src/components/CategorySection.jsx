@@ -9,8 +9,8 @@ const CategorySection = ({category}) => {
             {
                 category.items.length > 0 ? (
                     category.items.map((item) => (
-                        <div className='border w-50'>
-                            <Card key={item.Id} className='flex flex-col '>
+                        <div className=''>
+                            <Card key={item.Id} className='flex flex-col dark:bg-slate-950 '>
                             
                                 <CardContent className="p-4 gap-2">
                                     {

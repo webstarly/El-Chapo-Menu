@@ -5,13 +5,17 @@ import { LuSquareMenu } from "react-icons/lu";
 import { MdOutlineMenu } from "react-icons/md";
 import categoryMenu from "@/components/helper/Category";
 import { Link } from "react-router-dom";
+import { useTheme } from "@/themecontext/themeContext";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
+  const { theme, toggleTheme } = useTheme();
+
   const handleToggle = () => {
     setToggle(!toggle);
+    toggleTheme();
   };
 
   const handleShowMenu = () => {
@@ -23,7 +27,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-slate-200 shadow-md">
+    <header className="sticky top-0 z-50 w-full bg-slate-200 dark:bg-slate-900 text-black dark:text-white shadow-md">
       <div className="flex p-4 items-center justify-between flex-wrap">
         <div className="bg-orange-700 px-4 py-2 text-white font-bold rounded-md md:ml-10 ">
           logo
@@ -44,21 +48,23 @@ const Header = () => {
           </ul>
         </nav>
 
+          <div className="flex flex-row gap-2">
         <div
-          className="bg-green-500 md:mr-20 p-2 flex cursor-pointer"
+          className=" md:mr-20 mr-1 p-1 flex cursor-pointer z-50"
           onClick={handleToggle}
         >
           {toggle ? (
-            <MdOutlineLightMode className="h-5 w-5 text-yellow-300" />
-          ) : (
             <MdOutlineLightMode className="h-5 w-5 text-black" />
+          ) : (
+            <MdOutlineLightMode className="h-5 w-5 text-white" />
           )}
         </div>
-        <div className="md:hidden z-50">
+        <div className="md:hidden items-end z-50">
           <MdOutlineMenu
             className="h-8 w-8  text-orange-900 cursor-pointer"
             onClick={handleShowMenu}
           />
+        </div>
         </div>
 
         {showMenu && (

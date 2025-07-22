@@ -21,45 +21,45 @@ import image20 from "@/assets/pictures/image20.webp";
 
 
 const milkshakesItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " " },
+    {Id: 2, image: image2, title : " " },
+    {Id: 3, image: image3, title : " " },
+    {Id: 4, image: image4, title : " " },
 ]
 
 const smoothiesItems = [
-    {Id: 5, image: image5 },
-    {Id: 6, image: image6 },
-    {Id: 7, image: image7 },
-    {Id: 8, image: image8 },
+    {Id: 5, image: image5, title : " " },
+    {Id: 6, image: image6, title : " " },
+    {Id: 7, image: image7, title : " " },
+    {Id: 8, image: image8, title : " " },
 ]
 
 const brandyItems = [
-    {Id: 9, image: image9 },
-    {Id: 10, image: image10 },
-    {Id: 11, image: image11},
-    {Id: 12, image: image12},
+    {Id: 9, image: image9, title : " " },
+    {Id: 10, image: image10, title : " " },
+    {Id: 11, image: image11, title : " "},
+    {Id: 12, image: image12, title : " "},
 ]
 
 const breakfastItems = [
-    {Id: 13, image: image13 },
-    {Id: 12, image: image12 },
-    {Id: 13, image: image13 },
-    {Id: 14, image: image14 },
+    {Id: 13, image: image13, title : " " },
+    {Id: 12, image: image12, title : " " },
+    {Id: 13, image: image13, title : " " },
+    {Id: 14, image: image14, title : " " },
 ]
 
 const breakfastExtraItems = [
-    {Id: 15, image: image15 },
-    {Id: 16, image: image16 },
-    {Id: 17, image: image17 },
-    {Id: 18, image: image18 },
+    {Id: 15, image: image15, title : " " },
+    {Id: 16, image: image16, title : " " },
+    {Id: 17, image: image17, title : " " },
+    {Id: 18, image: image18, title : " " },
 ]
 
 const champagneItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " " },
+    {Id: 2, image: image2, title : " " },
+    {Id: 3, image: image3, title : " " },
+    {Id: 4, image: image4, title : " " },
 ]
 
 const pastriesItems = [

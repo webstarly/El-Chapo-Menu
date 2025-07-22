@@ -1,5 +1,6 @@
 import CategorySection from '@/components/CategorySection'
 import categoryMenu from '@/components/helper/Category'
+import { useTheme } from '@/themecontext/themeContext'
 //import Alcohol from '@/components/Alcohol'
 //import Brandy from '@/components/Brandy'
 //import Breakfast from '@/components/Breakfast'
@@ -13,6 +14,9 @@ import categoryMenu from '@/components/helper/Category'
 //import React from 'react'
 
 const Home = () => {
+
+    const { theme , toggleTheme } = useTheme();
+
   return (
     <>
     {
