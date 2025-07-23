@@ -18,6 +18,10 @@ import image17 from "@/assets/pictures/image17.webp";
 import image18 from "@/assets/pictures/image18.webp";
 import image19 from "@/assets/pictures/image19.webp";
 import image20 from "@/assets/pictures/image20.webp";
+import image31 from "@/assets/pictures/VanillaCake.jpg";
+import image32 from "@/assets/pictures/ChocolateCake.jpg";
+import image33 from "@/assets/pictures/BlackForestCake.jpg";
+import image34 from "@/assets/pictures/TiramisuCake.jpg";
 
 
 const milkshakesItems = [
@@ -77,10 +81,10 @@ const soupsItems = [
 ]
 
 const cakesItems = [
-    {Id: 1, image: image1, title : " ", price: " " },
-    {Id: 2, image: image2, title : " ", price: " " },
-    {Id: 3, image: image3, title : " ", price: " " },
-    {Id: 4, image: image4, title : " ", price: " " },
+    {Id: 1, image: image31, title : "Vanilla Cake ", price: " " },
+    {Id: 2, image: image32, title : "Chocolate Cake ", price: " " },
+    {Id: 3, image: image33, title : "Black Forest Cake ", price: " " },
+    {Id: 4, image: image34, title : "Tiramisu Cake ", price: " " },
 ]
 
 const alcoholItems = [
