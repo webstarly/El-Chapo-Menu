@@ -4,7 +4,7 @@ import currencySymbol from './helper/currencySymbol';
 
 const CategorySection = ({category}) => {
   return (
-    <section id={category.link} className='p-4'>
+    <section id={category.link} className='p-4 scroll-mt-20'>
         <h2 className='text-xl font-bold mb-4'>{category.label}</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
             {
