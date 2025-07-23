@@ -50,13 +50,13 @@ const Header = () => {
 
           <div className="flex flex-row gap-2">
         <div
-          className=" md:mr-20 mr-1 p-1 flex cursor-pointer z-50"
+          className=" md:mr-20 mr-1 p-2 flex cursor-pointer z-50"
           onClick={handleToggle}
         >
           {toggle ? (
-            <MdOutlineLightMode className="h-5 w-5 text-gray-300" />
+            <MdOutlineLightMode className="h-4 w-4 text-gray-300" />
           ) : (
-            <MdOutlineLightMode className="h-5 w-5 text-black" />
+            <MdOutlineLightMode className="h-4 w-4 text-black" />
           )}
         </div>
         <div className="md:hidden items-end z-50">
