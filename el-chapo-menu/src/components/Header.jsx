@@ -54,9 +54,9 @@ const Header = () => {
           onClick={handleToggle}
         >
           {toggle ? (
-            <MdOutlineLightMode className="h-4 w-4 text-black" />
-          ) : (
             <MdOutlineLightMode className="h-4 w-4 text-gray-300" />
+          ) : (
+            <MdOutlineLightMode className="h-4 w-4 text-black" />
           )}
         </div>
         <div className="md:hidden items-end z-50">
