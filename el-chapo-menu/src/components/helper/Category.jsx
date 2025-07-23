@@ -27,8 +27,8 @@ import image36 from "@/assets/pictures/Milkshake4.webp";
 
 
 const milkshakesItems = [
-    {Id: 1, image: image35, title : " ", price : " " },
-    {Id: 2, image: image36, title : " ", price: " " },
+    {Id: 1, image: image35, title : "Apple pie puff ", price : " " },
+    {Id: 2, image: image36, title : "Triple nut caramel ", price: " " },
     {Id: 3, image: image3, title : " ", price: " " },
     {Id: 4, image: image4, title : " ", price: " " },
 ]
