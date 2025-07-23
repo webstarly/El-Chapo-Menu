@@ -22,11 +22,13 @@ import image31 from "@/assets/pictures/VanillaCake.jpg";
 import image32 from "@/assets/pictures/ChocolateCake.jpg";
 import image33 from "@/assets/pictures/BlackForestCake.jpg";
 import image34 from "@/assets/pictures/TiramisuCake.jpg";
+import image35 from "@/assets/pictures/Milkshake3.webp";
+import image36 from "@/assets/pictures/Milkshake4.webp";
 
 
 const milkshakesItems = [
-    {Id: 1, image: image1, title : " ", price : " " },
-    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 1, image: image35, title : " ", price : " " },
+    {Id: 2, image: image36, title : " ", price: " " },
     {Id: 3, image: image3, title : " ", price: " " },
     {Id: 4, image: image4, title : " ", price: " " },
 ]
