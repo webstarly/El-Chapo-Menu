@@ -11,12 +11,12 @@ const CategorySection = ({category}) => {
                 category.items.length > 0 ? (
                     category.items.map((item) => (
                         <div className=''>
-                            <Card key={item.Id} className='flex flex-col bg-gray-50 dark:bg-slate-900 dark:border-b-white mt-2 transition-transform duration-200 hover:scale-102 shadow-md '>
+                            <Card key={item.Id} className='flex flex-col bg-gray-50 dark:bg-slate-900 dark:border-b-gray-500 mt-2   hover:scale-102 shadow-md animate-in fade-in duration-1500 ease-in motion-safe:animate-fade-in '>
                             
                                 <CardContent className="mt-8">
                                     {
                                         item.image ? (
-                                            <img src={item.image} alt={item.link} className='w-full h-48  rounded-b-md object-contain'/>
+                                            <img src={item.image} alt={item.link} className='w-full h-48  rounded-xl object-cover'/>
                                         ) : (
                                             <div className="w-full h-48 bg-gray-300  flex items-center justify-center text-gray-600">
                                                 No Image
@@ -25,8 +25,8 @@ const CategorySection = ({category}) => {
                                     }
                                 </CardContent>
                                 <CardFooter className='' >
-                                    <CardTitle className='space-y-1 font-medium  dark:text-gray-300 text-black'>
-                                        <h2> Price: { currencySymbol(item.price) }</h2>
+                                    <CardTitle className='space-y-1 font-medium p-2  dark:text-gray-300 text-black'>
+                                        <h2 > Price:<i className='text-orange-500'> { currencySymbol(item.price) } </i></h2>
                                         <p>Description: {item.title} </p>
                                     </CardTitle>
                                 </CardFooter>
