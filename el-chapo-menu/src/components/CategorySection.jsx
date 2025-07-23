@@ -16,7 +16,7 @@ const CategorySection = ({category}) => {
                                 <CardContent className="mt-8">
                                     {
                                         item.image ? (
-                                            <img src={item.image} alt={item.link} className='w-full h-48  rounded-xl object-cover'/>
+                                            <img src={item.image} alt={item.link} className='w-full h-48  rounded-md object-cover'/>
                                         ) : (
                                             <div className="w-full h-48 bg-gray-300  flex items-center justify-center text-gray-600">
                                                 No Image
