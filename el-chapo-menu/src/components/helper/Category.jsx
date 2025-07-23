@@ -98,15 +98,16 @@ const alcoholItems = [
 
 
 const categoryMenu = [
-    { Id :1, label :'Milkshakes', link:'milkshakes', items : milkshakesItems },
-    { Id :2, label :'Smoothies', link:'smoothies', items : smoothiesItems},
-    { Id :3, label :'Brandy', link: 'brandy', items : brandyItems},
-    { Id :4, label :'Breakfast', link: 'breakfast', items : breakfastItems},
-    { Id :5, label :'Breakfast Extra', link: 'breakfastextra', items : breakfastExtraItems},
-    { Id :6, label :'Champagne', link: 'champagne', items : champagneItems},
-    { Id :7, label :'Pastries', link: 'pastries', items : pastriesItems},
-    { Id :8, label :'Soups', link: 'soups', items : soupsItems},
-    { Id :9, label :'Cakes', link: 'cakes', items : cakesItems},
+    { Id :1, label :'Cakes', link: 'cakes', items : cakesItems},
+
+    { Id :2, label :'Milkshakes', link:'milkshakes', items : milkshakesItems },
+    { Id :3, label :'Smoothies', link:'smoothies', items : smoothiesItems},
+    { Id :4, label :'Brandy', link: 'brandy', items : brandyItems},
+    { Id :5, label :'Breakfast', link: 'breakfast', items : breakfastItems},
+    { Id :6, label :'Breakfast Extra', link: 'breakfastextra', items : breakfastExtraItems},
+    { Id :7, label :'Champagne', link: 'champagne', items : champagneItems},
+    { Id :8, label :'Pastries', link: 'pastries', items : pastriesItems},
+    { Id :9, label :'Soups', link: 'soups', items : soupsItems},
     { Id :10, label :'Alcohol-Cocktails', link:'alcohol', items : alcoholItems},
    ]
 export default categoryMenu;
