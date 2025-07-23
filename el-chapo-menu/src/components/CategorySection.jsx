@@ -1,17 +1,24 @@
 import React from 'react'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import currencySymbol from './helper/currencySymbol';
+import { useInView } from 'react-intersection-observer';
 
 const CategorySection = ({category}) => {
+
   return (
     <section id={category.link} className='p-4 scroll-mt-20'>
         <h2 className='text-xl font-bold mb-4'>{category.label}</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
             {
                 category.items.length > 0 ? (
-                    category.items.map((item) => (
-                        <div className=''>
-                            <Card key={item.Id} className='flex flex-col bg-gray-50 dark:bg-slate-900 dark:border-b-gray-500 mt-2   hover:scale-102 shadow-md animate-in fade-in duration-1500 ease-in motion-safe:animate-fade-in '>
+                    category.items.map((item) => {
+                        
+                        const { ref , inView } = useInView({ triggerOnce: true, threshold: 0.1 });
+
+                    return(
+
+                        <div ref={ref} className=''>
+                            <Card   key={item.Id} className={`flex flex-col bg-gray-50 dark:bg-slate-900 dark:border-b-gray-500 mt-2   hover:scale-102 shadow-md ${inView ? `animate-in fade-in duration-700 ease-in` : `opacity-0`} `} >
                             
                                 <CardContent className="mt-8">
                                     {
@@ -32,8 +39,9 @@ const CategorySection = ({category}) => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        
-                    ))
+                    )
+                    }    
+                )
                 ): (
                     <p className="text-gray-500">No items available.</p>
                 )
