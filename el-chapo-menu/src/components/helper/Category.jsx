@@ -21,73 +21,73 @@ import image20 from "@/assets/pictures/image20.webp";
 
 
 const milkshakesItems = [
-    {Id: 1, image: image1, title : " " },
-    {Id: 2, image: image2, title : " " },
-    {Id: 3, image: image3, title : " " },
-    {Id: 4, image: image4, title : " " },
+    {Id: 1, image: image1, title : " ", price : " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 const smoothiesItems = [
-    {Id: 5, image: image5, title : " " },
-    {Id: 6, image: image6, title : " " },
-    {Id: 7, image: image7, title : " " },
-    {Id: 8, image: image8, title : " " },
+    {Id: 5, image: image5, title : " ", price: " " },
+    {Id: 6, image: image6, title : " ", price: " " },
+    {Id: 7, image: image7, title : " ", price: " " },
+    {Id: 8, image: image8, title : " ", price: " " },
 ]
 
 const brandyItems = [
-    {Id: 9, image: image9, title : " " },
-    {Id: 10, image: image10, title : " " },
-    {Id: 11, image: image11, title : " "},
-    {Id: 12, image: image12, title : " "},
+    {Id: 9, image: image9, title : " ", price: " " },
+    {Id: 10, image: image10, title : " ", price: " " },
+    {Id: 11, image: image11, title : " ", price: " "},
+    {Id: 12, image: image12, title : " ", price: " "},
 ]
 
 const breakfastItems = [
-    {Id: 13, image: image13, title : " " },
-    {Id: 12, image: image12, title : " " },
-    {Id: 13, image: image13, title : " " },
-    {Id: 14, image: image14, title : " " },
+    {Id: 13, image: image13, title : " ", price: " " },
+    {Id: 12, image: image12, title : " ", price: " " },
+    {Id: 13, image: image13, title : " ", price: " " },
+    {Id: 14, image: image14, title : " ", price: " " },
 ]
 
 const breakfastExtraItems = [
-    {Id: 15, image: image15, title : " " },
-    {Id: 16, image: image16, title : " " },
-    {Id: 17, image: image17, title : " " },
-    {Id: 18, image: image18, title : " " },
+    {Id: 15, image: image15, title : " ", price: " " },
+    {Id: 16, image: image16, title : " ", price: " " },
+    {Id: 17, image: image17, title : " ", price: " " },
+    {Id: 18, image: image18, title : " ", price: " " },
 ]
 
 const champagneItems = [
-    {Id: 1, image: image1, title : " " },
-    {Id: 2, image: image2, title : " " },
-    {Id: 3, image: image3, title : " " },
-    {Id: 4, image: image4, title : " " },
+    {Id: 1, image: image1, title : " ", price: " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 const pastriesItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " ", price: " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 const soupsItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " ", price: " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 const cakesItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " ", price: " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 const alcoholItems = [
-    {Id: 1, image: image1 },
-    {Id: 2, image: image2 },
-    {Id: 3, image: image3 },
-    {Id: 4, image: image4 },
+    {Id: 1, image: image1, title : " ", price: " " },
+    {Id: 2, image: image2, title : " ", price: " " },
+    {Id: 3, image: image3, title : " ", price: " " },
+    {Id: 4, image: image4, title : " ", price: " " },
 ]
 
 

@@ -11,7 +11,7 @@ function App() {
     <>
     <ThemeProvider>
     <Header/>
-      <div className=' container bg-slate-100 dark:bg-slate-900 mx-auto min-h-[calc(100vh-120px)] '>
+      <div className=' container bg-white dark:bg-slate-900 mx-auto min-h-[calc(100vh-120px)] '>
         <Outlet/>
       </div>
     <Footer/>
