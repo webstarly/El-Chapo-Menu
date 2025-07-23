@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-slate-200 dark:bg-slate-900 text-black dark:text-white shadow-md dark:shadow-sm dark:shadow-gray-800">
       <div className="flex p-4 items-center justify-between flex-wrap">
-        <div className="bg-orange-700 px-4 py-2 text-white font-bold rounded-md md:ml-10 ">
+        <div className="bg-orange-700 dark:bg-white px-4 py-2 text-white dark:text-black font-bold rounded-md md:ml-10 ">
           logo
         </div>
         <nav className="hidden md:flex mr-10">
@@ -54,14 +54,14 @@ const Header = () => {
           onClick={handleToggle}
         >
           {toggle ? (
-            <MdOutlineLightMode className="h-5 w-5 text-black" />
+            <MdOutlineLightMode className="h-5 w-5 text-gray-300" />
           ) : (
-            <MdOutlineLightMode className="h-5 w-5 text-white" />
+            <MdOutlineLightMode className="h-5 w-5 text-black" />
           )}
         </div>
         <div className="md:hidden items-end z-50">
           <MdOutlineMenu
-            className="h-8 w-8  text-orange-900 cursor-pointer"
+            className="h-8 w-8  text-orange-900 dark:text-gray-300 cursor-pointer"
             onClick={handleShowMenu}
           />
         </div>
