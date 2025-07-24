@@ -12,6 +12,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const { theme, toggleTheme } = useTheme();
+   
 
   const handleToggle = () => {
     setToggle(!toggle);
@@ -53,11 +54,15 @@ const Header = () => {
           className=" md:mr-20 mr-1 p-2 flex cursor-pointer z-50"
           onClick={handleToggle}
         >
-          {toggle ? (
-            <MdOutlineLightMode className="h-4 w-4 text-gray-300" />
-          ) : (
-            <MdOutlineLightMode className="h-4 w-4 text-black" />
-          )}
+          {
+            toggle ? (
+                <MdOutlineLightMode className="h-4 w-4 text-gray-300" />
+              ) : (
+                <MdOutlineLightMode className="h-4 w-4 text-black" />
+              )
+            
+          }
+          
         </div>
         <div className="md:hidden items-end z-50">
           <MdOutlineMenu
